@@ -1,0 +1,1 @@
+javaw -Xmx200m -jar E:\dist\LabMap-Probe.jar

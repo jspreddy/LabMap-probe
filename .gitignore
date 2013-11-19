@@ -6,3 +6,4 @@
 *.ear
 /LabMap-probe/nbproject/private/
 /LabMap-probe/build/
+/dist/
