@@ -11,9 +11,12 @@ package labmap.probe;
  * @author Pratyush
  */
 public class UserData {
-    String username, system;
-    public UserData(String username, String system) {
+    String username, system, systemType;
+    Boolean loggedIn;
+    public UserData(String username, String system, String systemType, Boolean loggedIn) {
         this.username = username;
         this.system = system;
+        this.systemType = systemType;
+        this.loggedIn = loggedIn;
     }
 }
